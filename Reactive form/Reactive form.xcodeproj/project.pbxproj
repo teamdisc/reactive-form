@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B3899FC1EFDAE3500E55CDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3899FB1EFDAE3500E55CDC /* AppDelegate.swift */; };
+		1B3899FE1EFDAE3500E55CDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3899FD1EFDAE3500E55CDC /* ViewController.swift */; };
+		1B389A011EFDAE3500E55CDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B3899FF1EFDAE3500E55CDC /* Main.storyboard */; };
+		1B389A031EFDAE3500E55CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B389A021EFDAE3500E55CDC /* Assets.xcassets */; };
+		1B389A061EFDAE3500E55CDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B389A041EFDAE3500E55CDC /* LaunchScreen.storyboard */; };
+		1B389A111EFDAE3500E55CDC /* Reactive_formTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B389A101EFDAE3500E55CDC /* Reactive_formTests.swift */; };
+		1B389A1C1EFDAE3500E55CDC /* Reactive_formUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B389A1B1EFDAE3500E55CDC /* Reactive_formUITests.swift */; };
+		26E09EB0CD41B593C75F6346 /* Pods_Reactive_form.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976F351ADCBE35B741309225 /* Pods_Reactive_form.framework */; };
+		3E65A172068ABDFBEEB0EACA /* Pods_Reactive_formTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8DDAFFAD3F285AA82C8109 /* Pods_Reactive_formTests.framework */; };
+		D00308ED15188E9AF86FC9A9 /* Pods_Reactive_formUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B370A532969C8B097BB2D0B3 /* Pods_Reactive_formUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B389A0D1EFDAE3500E55CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B3899F01EFDAE3500E55CDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B3899F71EFDAE3500E55CDC;
+			remoteInfo = "Reactive form";
+		};
+		1B389A181EFDAE3500E55CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B3899F01EFDAE3500E55CDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B3899F71EFDAE3500E55CDC;
+			remoteInfo = "Reactive form";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B7CEA94D5593F6A20541EB /* Pods-Reactive form.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive form.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reactive form/Pods-Reactive form.debug.xcconfig"; sourceTree = "<group>"; };
+		1B3899F81EFDAE3500E55CDC /* Reactive form.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reactive form.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B3899FB1EFDAE3500E55CDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B3899FD1EFDAE3500E55CDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B389A001EFDAE3500E55CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B389A021EFDAE3500E55CDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B389A051EFDAE3500E55CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B389A071EFDAE3500E55CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B389A0C1EFDAE3500E55CDC /* Reactive formTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reactive formTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B389A101EFDAE3500E55CDC /* Reactive_formTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reactive_formTests.swift; sourceTree = "<group>"; };
+		1B389A121EFDAE3500E55CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B389A171EFDAE3500E55CDC /* Reactive formUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reactive formUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B389A1B1EFDAE3500E55CDC /* Reactive_formUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reactive_formUITests.swift; sourceTree = "<group>"; };
+		1B389A1D1EFDAE3500E55CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F173530AA168D46C2F1182 /* Pods-Reactive formUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive formUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reactive formUITests/Pods-Reactive formUITests.release.xcconfig"; sourceTree = "<group>"; };
+		976F351ADCBE35B741309225 /* Pods_Reactive_form.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reactive_form.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B370A532969C8B097BB2D0B3 /* Pods_Reactive_formUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reactive_formUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83309DA377BF7EEF531E1F8 /* Pods-Reactive form.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive form.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reactive form/Pods-Reactive form.release.xcconfig"; sourceTree = "<group>"; };
+		CC8DDAFFAD3F285AA82C8109 /* Pods_Reactive_formTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reactive_formTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64252E116149925A3C54BA7 /* Pods-Reactive formUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive formUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reactive formUITests/Pods-Reactive formUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9101D37A782BBD87FBAC718 /* Pods-Reactive formTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive formTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reactive formTests/Pods-Reactive formTests.release.xcconfig"; sourceTree = "<group>"; };
+		FEBC5865F25F7BBC9ACF86FD /* Pods-Reactive formTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive formTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reactive formTests/Pods-Reactive formTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B3899F51EFDAE3500E55CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E09EB0CD41B593C75F6346 /* Pods_Reactive_form.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B389A091EFDAE3500E55CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E65A172068ABDFBEEB0EACA /* Pods_Reactive_formTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B389A141EFDAE3500E55CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00308ED15188E9AF86FC9A9 /* Pods_Reactive_formUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B3899EF1EFDAE3500E55CDC = {
+			isa = PBXGroup;
+			children = (
+				1B3899FA1EFDAE3500E55CDC /* Reactive form */,
+				1B389A0F1EFDAE3500E55CDC /* Reactive formTests */,
+				1B389A1A1EFDAE3500E55CDC /* Reactive formUITests */,
+				1B3899F91EFDAE3500E55CDC /* Products */,
+				92BFDA5B02E8D4982AB5317F /* Pods */,
+				686D92CD85AD131A115B4791 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B3899F91EFDAE3500E55CDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B3899F81EFDAE3500E55CDC /* Reactive form.app */,
+				1B389A0C1EFDAE3500E55CDC /* Reactive formTests.xctest */,
+				1B389A171EFDAE3500E55CDC /* Reactive formUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B3899FA1EFDAE3500E55CDC /* Reactive form */ = {
+			isa = PBXGroup;
+			children = (
+				1B3899FB1EFDAE3500E55CDC /* AppDelegate.swift */,
+				1B3899FD1EFDAE3500E55CDC /* ViewController.swift */,
+				1B3899FF1EFDAE3500E55CDC /* Main.storyboard */,
+				1B389A021EFDAE3500E55CDC /* Assets.xcassets */,
+				1B389A041EFDAE3500E55CDC /* LaunchScreen.storyboard */,
+				1B389A071EFDAE3500E55CDC /* Info.plist */,
+			);
+			path = "Reactive form";
+			sourceTree = "<group>";
+		};
+		1B389A0F1EFDAE3500E55CDC /* Reactive formTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B389A101EFDAE3500E55CDC /* Reactive_formTests.swift */,
+				1B389A121EFDAE3500E55CDC /* Info.plist */,
+			);
+			path = "Reactive formTests";
+			sourceTree = "<group>";
+		};
+		1B389A1A1EFDAE3500E55CDC /* Reactive formUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B389A1B1EFDAE3500E55CDC /* Reactive_formUITests.swift */,
+				1B389A1D1EFDAE3500E55CDC /* Info.plist */,
+			);
+			path = "Reactive formUITests";
+			sourceTree = "<group>";
+		};
+		686D92CD85AD131A115B4791 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				976F351ADCBE35B741309225 /* Pods_Reactive_form.framework */,
+				CC8DDAFFAD3F285AA82C8109 /* Pods_Reactive_formTests.framework */,
+				B370A532969C8B097BB2D0B3 /* Pods_Reactive_formUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92BFDA5B02E8D4982AB5317F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03B7CEA94D5593F6A20541EB /* Pods-Reactive form.debug.xcconfig */,
+				B83309DA377BF7EEF531E1F8 /* Pods-Reactive form.release.xcconfig */,
+				FEBC5865F25F7BBC9ACF86FD /* Pods-Reactive formTests.debug.xcconfig */,
+				E9101D37A782BBD87FBAC718 /* Pods-Reactive formTests.release.xcconfig */,
+				D64252E116149925A3C54BA7 /* Pods-Reactive formUITests.debug.xcconfig */,
+				90F173530AA168D46C2F1182 /* Pods-Reactive formUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B3899F71EFDAE3500E55CDC /* Reactive form */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B389A201EFDAE3500E55CDC /* Build configuration list for PBXNativeTarget "Reactive form" */;
+			buildPhases = (
+				4413087C0F8BC1DF921BB4A5 /* [CP] Check Pods Manifest.lock */,
+				1B3899F41EFDAE3500E55CDC /* Sources */,
+				1B3899F51EFDAE3500E55CDC /* Frameworks */,
+				1B3899F61EFDAE3500E55CDC /* Resources */,
+				B7A21E4E21595434099E557E /* [CP] Embed Pods Frameworks */,
+				8952E57F5D44CC48DEC97343 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reactive form";
+			productName = "Reactive form";
+			productReference = 1B3899F81EFDAE3500E55CDC /* Reactive form.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B389A0B1EFDAE3500E55CDC /* Reactive formTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B389A231EFDAE3500E55CDC /* Build configuration list for PBXNativeTarget "Reactive formTests" */;
+			buildPhases = (
+				7265341ABE45968623AC7273 /* [CP] Check Pods Manifest.lock */,
+				1B389A081EFDAE3500E55CDC /* Sources */,
+				1B389A091EFDAE3500E55CDC /* Frameworks */,
+				1B389A0A1EFDAE3500E55CDC /* Resources */,
+				152BAD7C4F664A8C457B931F /* [CP] Embed Pods Frameworks */,
+				9A656D9680FF3DDF302482F8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B389A0E1EFDAE3500E55CDC /* PBXTargetDependency */,
+			);
+			name = "Reactive formTests";
+			productName = "Reactive formTests";
+			productReference = 1B389A0C1EFDAE3500E55CDC /* Reactive formTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B389A161EFDAE3500E55CDC /* Reactive formUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B389A261EFDAE3500E55CDC /* Build configuration list for PBXNativeTarget "Reactive formUITests" */;
+			buildPhases = (
+				C4456E16AB9C2F5F269A64B0 /* [CP] Check Pods Manifest.lock */,
+				1B389A131EFDAE3500E55CDC /* Sources */,
+				1B389A141EFDAE3500E55CDC /* Frameworks */,
+				1B389A151EFDAE3500E55CDC /* Resources */,
+				4935B07EEE3F37A7C4538565 /* [CP] Embed Pods Frameworks */,
+				71067F6E8E0D003190F97CF8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B389A191EFDAE3500E55CDC /* PBXTargetDependency */,
+			);
+			name = "Reactive formUITests";
+			productName = "Reactive formUITests";
+			productReference = 1B389A171EFDAE3500E55CDC /* Reactive formUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B3899F01EFDAE3500E55CDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Pirush Prechathavanich";
+				TargetAttributes = {
+					1B3899F71EFDAE3500E55CDC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UVSKN2UV8H;
+						ProvisioningStyle = Automatic;
+					};
+					1B389A0B1EFDAE3500E55CDC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UVSKN2UV8H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1B3899F71EFDAE3500E55CDC;
+					};
+					1B389A161EFDAE3500E55CDC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UVSKN2UV8H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1B3899F71EFDAE3500E55CDC;
+					};
+				};
+			};
+			buildConfigurationList = 1B3899F31EFDAE3500E55CDC /* Build configuration list for PBXProject "Reactive form" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B3899EF1EFDAE3500E55CDC;
+			productRefGroup = 1B3899F91EFDAE3500E55CDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B3899F71EFDAE3500E55CDC /* Reactive form */,
+				1B389A0B1EFDAE3500E55CDC /* Reactive formTests */,
+				1B389A161EFDAE3500E55CDC /* Reactive formUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B3899F61EFDAE3500E55CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B389A061EFDAE3500E55CDC /* LaunchScreen.storyboard in Resources */,
+				1B389A031EFDAE3500E55CDC /* Assets.xcassets in Resources */,
+				1B389A011EFDAE3500E55CDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B389A0A1EFDAE3500E55CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B389A151EFDAE3500E55CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		152BAD7C4F664A8C457B931F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reactive formTests/Pods-Reactive formTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4413087C0F8BC1DF921BB4A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4935B07EEE3F37A7C4538565 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reactive formUITests/Pods-Reactive formUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71067F6E8E0D003190F97CF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reactive formUITests/Pods-Reactive formUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7265341ABE45968623AC7273 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8952E57F5D44CC48DEC97343 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reactive form/Pods-Reactive form-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A656D9680FF3DDF302482F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reactive formTests/Pods-Reactive formTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7A21E4E21595434099E557E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reactive form/Pods-Reactive form-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4456E16AB9C2F5F269A64B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B3899F41EFDAE3500E55CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B3899FE1EFDAE3500E55CDC /* ViewController.swift in Sources */,
+				1B3899FC1EFDAE3500E55CDC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B389A081EFDAE3500E55CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B389A111EFDAE3500E55CDC /* Reactive_formTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B389A131EFDAE3500E55CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B389A1C1EFDAE3500E55CDC /* Reactive_formUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B389A0E1EFDAE3500E55CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B3899F71EFDAE3500E55CDC /* Reactive form */;
+			targetProxy = 1B389A0D1EFDAE3500E55CDC /* PBXContainerItemProxy */;
+		};
+		1B389A191EFDAE3500E55CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B3899F71EFDAE3500E55CDC /* Reactive form */;
+			targetProxy = 1B389A181EFDAE3500E55CDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B3899FF1EFDAE3500E55CDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B389A001EFDAE3500E55CDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B389A041EFDAE3500E55CDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B389A051EFDAE3500E55CDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B389A1E1EFDAE3500E55CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B389A1F1EFDAE3500E55CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B389A211EFDAE3500E55CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03B7CEA94D5593F6A20541EB /* Pods-Reactive form.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UVSKN2UV8H;
+				INFOPLIST_FILE = "Reactive form/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "td.Reactive-form";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1B389A221EFDAE3500E55CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B83309DA377BF7EEF531E1F8 /* Pods-Reactive form.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UVSKN2UV8H;
+				INFOPLIST_FILE = "Reactive form/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "td.Reactive-form";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1B389A241EFDAE3500E55CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEBC5865F25F7BBC9ACF86FD /* Pods-Reactive formTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UVSKN2UV8H;
+				INFOPLIST_FILE = "Reactive formTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "td.Reactive-formTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reactive form.app/Reactive form";
+			};
+			name = Debug;
+		};
+		1B389A251EFDAE3500E55CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9101D37A782BBD87FBAC718 /* Pods-Reactive formTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UVSKN2UV8H;
+				INFOPLIST_FILE = "Reactive formTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "td.Reactive-formTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reactive form.app/Reactive form";
+			};
+			name = Release;
+		};
+		1B389A271EFDAE3500E55CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D64252E116149925A3C54BA7 /* Pods-Reactive formUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UVSKN2UV8H;
+				INFOPLIST_FILE = "Reactive formUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "td.Reactive-formUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Reactive form";
+			};
+			name = Debug;
+		};
+		1B389A281EFDAE3500E55CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F173530AA168D46C2F1182 /* Pods-Reactive formUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UVSKN2UV8H;
+				INFOPLIST_FILE = "Reactive formUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "td.Reactive-formUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Reactive form";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B3899F31EFDAE3500E55CDC /* Build configuration list for PBXProject "Reactive form" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B389A1E1EFDAE3500E55CDC /* Debug */,
+				1B389A1F1EFDAE3500E55CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B389A201EFDAE3500E55CDC /* Build configuration list for PBXNativeTarget "Reactive form" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B389A211EFDAE3500E55CDC /* Debug */,
+				1B389A221EFDAE3500E55CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B389A231EFDAE3500E55CDC /* Build configuration list for PBXNativeTarget "Reactive formTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B389A241EFDAE3500E55CDC /* Debug */,
+				1B389A251EFDAE3500E55CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B389A261EFDAE3500E55CDC /* Build configuration list for PBXNativeTarget "Reactive formUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B389A271EFDAE3500E55CDC /* Debug */,
+				1B389A281EFDAE3500E55CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B3899F01EFDAE3500E55CDC /* Project object */;
+}
