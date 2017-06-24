@@ -18,14 +18,30 @@ class FormViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setupView()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    private func setupView() {
+        // cornerRadius buttons
+        let loginMaskLayer = CAShapeLayer()
+        let registerMaskLayer = CAShapeLayer()
+        let buttonPath = UIBezierPath(roundedRect: loginTabButton.bounds,
+                                      byRoundingCorners: [.topLeft, .topRight],
+                                      cornerRadii: CGSize(width: 10, height: 10))
+        loginMaskLayer.path = buttonPath.cgPath
+        registerMaskLayer.path = buttonPath.cgPath
+        loginTabButton.layer.mask = loginMaskLayer
+        registerTabButton.layer.mask = registerMaskLayer
+        
+        // cornerRadius tableview
+        let maskLayer = CAShapeLayer()
+        let path = UIBezierPath(roundedRect: tableView.bounds,
+                                byRoundingCorners: [.bottomLeft, .bottomRight],
+                                cornerRadii: CGSize(width: 10, height: 10))
+        maskLayer.path = path.cgPath
+        tableView.layer.mask = maskLayer
+        
+        registerButton.layer.cornerRadius = registerButton.bounds.height/2
     }
-
 
 }
-
