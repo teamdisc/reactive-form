@@ -11,7 +11,7 @@ import UIKit
 class FormViewController: UIViewController {
 
     @IBOutlet weak var logoImageView: UIImageView!
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var cardView: UIView!
     @IBOutlet weak var loginTabButton: UIButton!
     @IBOutlet weak var registerTabButton: UIButton!
     @IBOutlet weak var registerButton: UIButton!
@@ -34,14 +34,18 @@ class FormViewController: UIViewController {
         registerTabButton.layer.mask = registerMaskLayer
         
         // cornerRadius tableview
-        let maskLayer = CAShapeLayer()
-        let path = UIBezierPath(roundedRect: tableView.bounds,
+        let path = UIBezierPath(roundedRect: cardView.bounds,
                                 byRoundingCorners: [.bottomLeft, .bottomRight],
                                 cornerRadii: CGSize(width: 10, height: 10))
-        maskLayer.path = path.cgPath
-        tableView.layer.mask = maskLayer
+        cardView.layer.shadowRadius = 8
+        cardView.layer.shadowColor = UIColor.black.cgColor
+        cardView.layer.shadowOpacity = 0.2
+        cardView.layer.shadowPath = path.cgPath
+        cardView.layer.shadowOffset = CGSize(width: 0, height: 2)
         
         registerButton.layer.cornerRadius = registerButton.bounds.height/2
+        registerButton.layer.borderWidth = 2
+        registerButton.layer.borderColor = UIColor.white.cgColor
     }
 
 }
