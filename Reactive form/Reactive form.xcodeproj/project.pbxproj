@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B3899FC1EFDAE3500E55CDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3899FB1EFDAE3500E55CDC /* AppDelegate.swift */; };
-		1B3899FE1EFDAE3500E55CDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3899FD1EFDAE3500E55CDC /* ViewController.swift */; };
+		1B3899FE1EFDAE3500E55CDC /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3899FD1EFDAE3500E55CDC /* FormViewController.swift */; };
 		1B389A011EFDAE3500E55CDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B3899FF1EFDAE3500E55CDC /* Main.storyboard */; };
 		1B389A031EFDAE3500E55CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B389A021EFDAE3500E55CDC /* Assets.xcassets */; };
 		1B389A061EFDAE3500E55CDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B389A041EFDAE3500E55CDC /* LaunchScreen.storyboard */; };
@@ -42,7 +42,7 @@
 		03B7CEA94D5593F6A20541EB /* Pods-Reactive form.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive form.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reactive form/Pods-Reactive form.debug.xcconfig"; sourceTree = "<group>"; };
 		1B3899F81EFDAE3500E55CDC /* Reactive form.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reactive form.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B3899FB1EFDAE3500E55CDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B3899FD1EFDAE3500E55CDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B3899FD1EFDAE3500E55CDC /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		1B389A001EFDAE3500E55CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B389A021EFDAE3500E55CDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B389A051EFDAE3500E55CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 			children = (
 				1BD8B9E11EFE3407000E8ABE /* views */,
 				1B3899FB1EFDAE3500E55CDC /* AppDelegate.swift */,
-				1B3899FD1EFDAE3500E55CDC /* ViewController.swift */,
+				1B3899FD1EFDAE3500E55CDC /* FormViewController.swift */,
 				1B3899FF1EFDAE3500E55CDC /* Main.storyboard */,
 				1B389A021EFDAE3500E55CDC /* Assets.xcassets */,
 				1B389A041EFDAE3500E55CDC /* LaunchScreen.storyboard */,
@@ -464,7 +464,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B3899FE1EFDAE3500E55CDC /* ViewController.swift in Sources */,
+				1B3899FE1EFDAE3500E55CDC /* FormViewController.swift in Sources */,
 				1B3899FC1EFDAE3500E55CDC /* AppDelegate.swift in Sources */,
 				1BD8B9E41EFE3502000E8ABE /* FieldTableViewCell.swift in Sources */,
 			);
