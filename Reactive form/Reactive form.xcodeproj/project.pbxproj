@@ -16,6 +16,8 @@
 		1B389A1C1EFDAE3500E55CDC /* Reactive_formUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B389A1B1EFDAE3500E55CDC /* Reactive_formUITests.swift */; };
 		1BD8B9E41EFE3502000E8ABE /* FieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD8B9E21EFE3502000E8ABE /* FieldTableViewCell.swift */; };
 		1BD8B9E51EFE3502000E8ABE /* FieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BD8B9E31EFE3502000E8ABE /* FieldTableViewCell.xib */; };
+		1BEAC2C21EFFB0ED00FD4D1F /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEAC2C11EFFB0ED00FD4D1F /* FormViewModel.swift */; };
+		1BEAC2C51EFFB47200FD4D1F /* UITableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEAC2C41EFFB47200FD4D1F /* UITableViewHelper.swift */; };
 		1BF147871EFEF3D5005D9F4A /* FormTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF147861EFEF3D5005D9F4A /* FormTableViewController.swift */; };
 		26E09EB0CD41B593C75F6346 /* Pods_Reactive_form.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976F351ADCBE35B741309225 /* Pods_Reactive_form.framework */; };
 		3E65A172068ABDFBEEB0EACA /* Pods_Reactive_formTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8DDAFFAD3F285AA82C8109 /* Pods_Reactive_formTests.framework */; };
@@ -56,6 +58,8 @@
 		1B389A1D1EFDAE3500E55CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BD8B9E21EFE3502000E8ABE /* FieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FieldTableViewCell.swift; path = views/FieldTableViewCell.swift; sourceTree = "<group>"; };
 		1BD8B9E31EFE3502000E8ABE /* FieldTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FieldTableViewCell.xib; path = views/FieldTableViewCell.xib; sourceTree = "<group>"; };
+		1BEAC2C11EFFB0ED00FD4D1F /* FormViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FormViewModel.swift; path = "view models/FormViewModel.swift"; sourceTree = "<group>"; };
+		1BEAC2C41EFFB47200FD4D1F /* UITableViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UITableViewHelper.swift; path = helpers/UITableViewHelper.swift; sourceTree = "<group>"; };
 		1BF147861EFEF3D5005D9F4A /* FormTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormTableViewController.swift; sourceTree = "<group>"; };
 		90F173530AA168D46C2F1182 /* Pods-Reactive formUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive formUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reactive formUITests/Pods-Reactive formUITests.release.xcconfig"; sourceTree = "<group>"; };
 		976F351ADCBE35B741309225 /* Pods_Reactive_form.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reactive_form.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +124,8 @@
 		1B3899FA1EFDAE3500E55CDC /* Reactive form */ = {
 			isa = PBXGroup;
 			children = (
+				1BEAC2C31EFFB42200FD4D1F /* helpers */,
+				1BEAC2C01EFFB0D400FD4D1F /* view models */,
 				1BF147851EFEF3B0005D9F4A /* controllers */,
 				1BD8B9E11EFE3407000E8ABE /* views */,
 				1B3899FB1EFDAE3500E55CDC /* AppDelegate.swift */,
@@ -156,6 +162,22 @@
 				1BD8B9E31EFE3502000E8ABE /* FieldTableViewCell.xib */,
 			);
 			name = views;
+			sourceTree = "<group>";
+		};
+		1BEAC2C01EFFB0D400FD4D1F /* view models */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAC2C11EFFB0ED00FD4D1F /* FormViewModel.swift */,
+			);
+			name = "view models";
+			sourceTree = "<group>";
+		};
+		1BEAC2C31EFFB42200FD4D1F /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAC2C41EFFB47200FD4D1F /* UITableViewHelper.swift */,
+			);
+			name = helpers;
 			sourceTree = "<group>";
 		};
 		1BF147851EFEF3B0005D9F4A /* controllers */ = {
@@ -475,6 +497,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BEAC2C21EFFB0ED00FD4D1F /* FormViewModel.swift in Sources */,
+				1BEAC2C51EFFB47200FD4D1F /* UITableViewHelper.swift in Sources */,
 				1B3899FE1EFDAE3500E55CDC /* FormViewController.swift in Sources */,
 				1B3899FC1EFDAE3500E55CDC /* AppDelegate.swift in Sources */,
 				1BD8B9E41EFE3502000E8ABE /* FieldTableViewCell.swift in Sources */,

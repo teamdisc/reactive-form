@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9C224DDF7B737AA63474A0096140D512"
+               BlueprintIdentifier = "9DAB1A73E181EB09BDFDFF7E4583EA6C"
                BuildableName = "Pods_Reactive_form.framework"
                BlueprintName = "Pods-Reactive form"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9C224DDF7B737AA63474A0096140D512"
+            BlueprintIdentifier = "9DAB1A73E181EB09BDFDFF7E4583EA6C"
             BuildableName = "Pods_Reactive_form.framework"
             BlueprintName = "Pods-Reactive form"
             ReferencedContainer = "container:Pods.xcodeproj">
